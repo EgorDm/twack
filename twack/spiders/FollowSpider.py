@@ -17,9 +17,6 @@ META_USER_ID = 't_user_id'
 META_RESULT_COUNT = 't_result_count'
 
 
-# "3170249476"
-# "1682510708891960698|1462923342238449620"
-
 def url_params(userId, cursor=None):
     cursor = dict(cursor=cursor) if cursor else {}
 
